@@ -66,6 +66,7 @@ class SiteController extends Controller
         $query = (new Query());
         $rows = $query->select('s.id as pid,s.name as title,a.id AS id,a.name,a.url,a.info,a.date,a.sortsId')->from('video_addres as a')->leftJoin('sorts as s','s.id = a.sortsId')->all();
 
+
         $list = [];
         foreach ($rows as $key => $item){
             if(!isset($list[$item['pid']])){
