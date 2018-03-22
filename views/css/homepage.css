@@ -1,0 +1,51 @@
+
+#main{position:relative;}
+#main_menu{ width:180px; float:left; padding-left:1px;overflow:hidden;position:relative;}
+.addLeftSide{padding-top:10px;}
+
+#bottomUp{position:relative;}
+#bottomUp img{position:absolute;top:-10px;left:0px;width:180px;height:18px;cursor:pointer;}
+#bottomDown{position:absolute;bottom:-5px;left:0px;width:180px;}
+#bottomDown img{width:180px;height:18px;cursor:pointer;}
+a,img{border:none;}
+/*#bottomUp{position:absolute;top:0px!important;top:-2px;left:-180px;width:171px;height:18px;}
+#bottomDown{position:absolute;bottom:0px!important;bottom:-2px;left:-180px;width:171px;height:18px;}
+.imgDown{width:180px;height:18px;cursor:pointer;}*/
+
+
+.topbg{display:block;margin:0px;}
+.bottombg{margin:0px;}
+
+
+.main_nav{overflow:hidden;padding-top:10px!important;padding-top:5px;}
+.main_nav .topbg{ 
+	/*background:url(../images/index_07.jpg) 0 0 no-repeat;*/ 
+	height:0px; 
+	font-size:0;
+}
+.main_nav .midbg{ 
+	/*background:url(../images/index_17.jpg) 0  0 repeat-y;*/ 
+	padding:0px 0 10px 8px;
+}
+.main_nav .bottombg{ 
+	/*background:url(../images/index_18.jpg) 0 0 no-repeat; */
+	height:18px; font-size:0;
+}
+.listexpander,
+.listexpander li{ margin:0; padding:0; list-style:none;}
+.listexpander{width:164px;overflow:hidden;text-align:center;}
+a.level1menu{background:url(../images/button.gif) 0 0 no-repeat; width:164px; height:35px; color:#fff; font-size:14px; display:block; font-weight:bold; padding-top:8px; text-decoration:none}
+.listexpander li a:hover{color:#eee;}
+.main_nav li img{ vertical-align:middle; padding-left:5px; border:none}
+.childmenu li { background:url(../images/subButton_bg.gif) left center no-repeat; width:163px; height:29px; line-height:29px;padding:0;margin-bottom:5px; cursor:pointer; }
+.childmenu li a{ color:#eee;display: block;font-size:13px; font-weight:normal }
+.childmenu li a:hover{text-decoration:none; }
+.childmenu li.cur {background-position: -165px 0;}
+/*.main_nav li li  a:visited{color:#fff;background:url(../images/index_14_0.jpg) right center no-repeat;}*/
+.listexpander li li  a:hover{color:#fff;}
+#main_content{ float:left; width:834px;overflow:hidden;}
+
+.footer,
+.footer .inner{background:url(../images/footerbg.png) 0 0  no-repeat;height:86px;line-height: 46px; }
+.footer{ width:100%;text-align: center;font-size: 12px;}
+.footer .inner{background-position: right -86px;}

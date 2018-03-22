@@ -1,0 +1,285 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body{height:100%;overflow: hidden;}
+
+/*link*/
+.linkBlue,.linkBlue a:link,.linkBlue a:visited,.linkBlue:link,.linkBlue a:visited,.linkBlue:visited{color:#3363c9!important;}
+.linkBlue a:hover,.linkBlue:hover{color:#3363c9!important;}
+.linkBlack,.linkBlack a:link,.linkBlack a:visited,.linkBlack:link,.linkBlack:visited{color:#000!important;}
+.linkBlack a:hover.linkBlack:hover{color:#000!important;}
+.linkRed,.linkRed a:link,.linkRed a:visited,a.linkRed:link,a.linkRed:visited{color:#ff3300!important;}
+.linkRed a:hover,.linkRed:hover{color:#ff3300!important;}
+.linkWhite,.linkWhite a:link,.linkWhite a:visited,.linkWhite:link,.linkWhite:visited{color:#ffffff!important;}
+.linkWhite a:hover,.linkWhite:hover{color:#ffffff!important;}
+.linkGreen,.linkGreen a:link,.linkGreen a:visited,.linkGreen:link,.linkGreen:visited{color:#009900 !important;}
+.linkGreen a:hover.linkGreen:hover{color:#009900!important;}
+.linkYellow,.linkYellow a:link,.linkYellow a:visited,.linkYellow:link,.linkYellow:visited{color:#fb4410!important;}
+.linkYellow a:hover,.linkYellow:hover{color:#fb4410!important;}
+.linkGrey,.linkGrey a:link,.linkGrey a:visited,.linkGrey:link,.linkGrey:visited{color:#999999!important;}
+.linkGrey a:hover.linkGrey:hover{color:#999999!important;}
+/*=================================================================================================================================================================================================================================*/
+
+
+
+
+/*传统标题*/
+h1{}
+h2{}
+h3{}
+h4{}
+h5{}
+h6{}
+
+/*标题*/
+.H1{}
+.H2{}
+.H3{}
+.H4{}
+.H5{}
+.H6{}
+
+/*传统段落*/
+p{}
+.section{}
+
+
+/*模块通用样式*/
+/*============================================================================================================================*/
+/*公用*/
+.sectionBox{position: relative;}
+.sectionBox h1,.sectionBox h2,.sectionBox h3,.sectionBox h4,.sectionBox h5,.sectionBox h6{font-size: 16px;font-weight: bold;font-family:"Microsoft YaHei";color: #333;padding-left: 10px;}
+.sectionBox h1{}
+.sectionBox h2{}
+.sectionBox h3{}
+.sectionBox h4{}
+.sectionBox h5{}
+.sectionBox h6{}
+.sectionBox .more{ position:absolute;background: url(../images/ico.png) no-repeat 30px -10px;top: 0;right: 0;}
+.sectionBox .price{color: #f60;font-size: 16px;font-family:"Microsoft Yahei";font-weight: normal;}
+.sectionBox .price .nu{color: #f60;}
+.sectionBox .price .symbol{font-size: 12px;color: #f60;}
+.sectionBox .price .word{font-size: 12px;margin-left: -2px;}
+.sectionBox .price .call{ font-size:14px;font-family:"Microsoft Yahei";font-weight: normal;}
+
+
+
+/*line*/
+.sectionLine-col{background:#e5e5e5;height: 100%;width: 1px;}
+.sectionLine-row{background:#e5e5e5;height: 1px;width: 100%;}
+
+/*border*/
+.sectionBorder-A1{}
+.sectionBorder-A4{border: 1px solid #ccced7;}
+
+/*wrapper*/
+.sectionContainer-A1{}
+
+.sectionWrap-A1{width:100%;min-width:1018px; height:118px;background:url(../images/header_bg.gif) repeat-x;position:relative;}
+.sectionWrap-A1 .middle{height:118px;position:relative;background:url(../images/header_bg_right.jpg) no-repeat right 0;}
+.sectionWrap-A1 .left{width:492px;height:118px;background:url(../images/header_bg_left.jpg) no-repeat;}
+
+/*显示地址信息*/
+.sectionWrap-A6{background: #fff;margin-left: 127px;}
+.sectionWrap-A6 .p30{padding:19px 0;}
+
+/*三角箭头*/
+/*==============================================================================================================================================*/
+.sectionArrow-A1       {position: relative;}
+.sectionArrow-A1 i     {width: 0;height: 0;position: absolute;left: 0;bottom: 0;overflow: hidden;cursor:pointer;border-width: 5px;font-size:0;line-height: 0; margin: 0;}
+.sectionArrow-A1 i.up  {border-style: dashed dashed solid; border-color:transparent transparent #b8b8b8;  }
+.sectionArrow-A1 i.down{border-style: solid dashed dashed; border-color: #b8b8b8 transparent transparent;bottom: -10px; }
+.sectionArrow-A1 i.i-L {border-style: dashed solid dashed dashed; border-color:transparent #b8b8b8 transparent transparent;}
+.sectionArrow-A1 i.i-R {border-style: dashed dashed dashed solid; border-color:transparent transparent transparent #b8b8b8;}
+/*双箭头重叠*/
+.sectionArrow-A1 i.A{z-index: 10;bottom: -3px;border-style: dashed dashed solid; border-color:transparent transparent #b8b8b8;}/*填充颜色*/
+.sectionArrow-A1 i.B{border-style: dashed dashed solid;border-color:transparent transparent #771830;}/*边线颜色*/
+
+/*==============================================================================================================================================*/
+
+
+
+/*文字样式*/
+.sectionFont,.sectionFont a{color: #333;font-size: 12px;}
+.sectionFont-grey,.sectionFont-grey a{color: #999;}
+.sectionFont-red,.sectionFont-red a{color: #e74c3c;}
+.sectionFont-white,.sectionFont-white a{color: #fff;}
+
+
+/*头部*/
+.sectionHeader-A1{height: 148px;}
+
+
+/*顶部*/
+.sectionTop-A1{height: 46px;line-height: 46px; text-align: right;background:url(../images/title_bg.png) repeat-x 0 0; position: relative;z-index: 10;color: #565656;}
+.sectionTop-A1 a{color: #565656;}
+.sectionTop-A1 span{margin: 0 5px;}
+
+/*导航条*/
+.sectionNav-A1{height:30px;line-height:30px;color:#fff;position:relative;background:url(../images/headnav.gif) repeat-x;text-align:left;padding: 0 10px;}
+.sectionNav-A1 a{color:#fff;text-decoration: none;}
+.sectionNav-A1 a:hover{text-decoration: underline;}
+
+/*Logo*/
+.sectionLogo-A1{height:118px;line-height: 118px; }
+.sectionLogo-A1 img{position: absolute;top: 30px;left: 20px;}
+.sectionLogo-A1 h2{margin-left: 100px; text-align:left;color:#fff;font-size:24px;font-weight:bold;}
+
+
+
+/*Tel*/
+.sectionTel-A1{}
+
+
+/*脚部*/
+.sectionFoot-A1{}
+
+/* 友情链接 */
+.sectionLinks-A1{}
+
+
+
+/*Menu*/
+.sectionMenu-A1{width: 128px;position: absolute;left: 0;top: 0; z-index: 10;}
+.sectionMenu-A1 .border{border: 1px solid #ccced7;border-right: none;border-top: none; }
+.sectionMenu-A1 dd{line-height: 30px;background: #fafafa;color: #808080;padding: 2px 15px;border: 1px solid #ccced7;border-left: none;border-bottom: none;position: relative;cursor: pointer; }
+.sectionMenu-A1 .cur{background: #ebedf4;color: #333;border-right: none;}
+
+
+
+/*Title*/
+.sectionTitle-A1{cursor: pointer;text-align:center;border-bottom:1px solid #e6e6e6;}
+.sectionTitle-A1 ul{position: relative;top: 1px;}
+.sectionTitle-A1 li{width: 120px;height:30px;line-height: 30px; float:left; _display:inline;background:#f7f7f7;padding:5px 10px;border:1px solid #e6e6e6;border-left: none; font-size: 14px;color:#666;font-weight: normal;font-family: 'SimSun';}
+.sectionTitle-A1 li.first{border-left:1px solid #e6e6e6;}
+.sectionTitle-A1 li.current{background: #fff;border-top:2px solid #666;border-bottom: none;font-weight: bold;}
+
+.sectionTitle-A2,
+.sectionTitle-A2 h2,
+.sectionTitle-A2 .more{height: 29px;line-height: 29px;}
+.sectionTitle-A2 h2{color: #333;font-size: 22px;font-family:"Microsoft Yahei";font-weight: normal;}
+.sectionTitle-A2 .more{right:0px; top:0;padding-right: 25px;background-position: 30px -6px;}
+
+
+/*slider*/
+.sectionSlider-A1{}
+
+.sectionSliderButton-A1{width:92px;height:18px;position:absolute;top:auto;right:5px;left:auto;bottom:10px;z-index:100;}
+.sectionSliderButton-A1 li{height:18px;width:18px;overflow:hidden;float:left;display: inline; cursor:pointer;margin-right:5px;text-align:center;line-height:18px;background:#fff;color:#000;font-weight:bold;}
+.sectionSliderButton-A1 li.current{background:#f60;color:#fff;}
+
+/*lists*/
+.sectionList-A1 li{height: 26px; line-height:26px; background:url(../images/li.png) 0 12px no-repeat; padding-left:12px; }
+.sectionList-A1 a{color: #333;font-size: 12px;}
+.sectionList-A1 .date{color: #999;font-size: 12px;}
+.sectionList-A1 a:hover{}
+
+
+/*缩略图*/
+.sectionThumbnail{position: relative;}
+.sectionThumbnail img{text-align: center;}
+
+.sectionThumbnail-video{}
+
+
+/*searchBox*/
+.sectionSearch-A1{}
+
+
+/*表单*/
+
+/*forms*/
+.sectionForm{font-family:"SimSun";}
+.sectionForm ul{*margin-bottom: 10px;}
+.sectionForm li{position: relative;line-height: 25px;}
+.sectionForm label{font-size: 12px;text-align: right;margin-right: 5px;}
+.sectionForm label .warning{color: #f00;margin: 0;}
+.sectionForm .text{width: auto; height: 25px;padding: 0 5px;color: #333; vertical-align:middle;font-size:12px;border: 1px solid #ccc;}
+.sectionForm .radio{}
+.sectionForm .radio span{margin-right: 5px;color: #333;font-size: 12px;}
+.sectionForm textarea{width: 490px;border: 1px solid #ccc;font-size: 12px;padding: 10px;color: #999;}
+.sectionForm select{width: auto;padding: 3px 2px; font-size:12px;border: 1px solid #ccc;}
+.sectionForm .warning{color: #cc0000;margin:0 5px;}
+.sectionForm .message{color: #888;}
+.sectionForm .date{}
+.sectionForm .date span{margin: 0 5px;}
+.sectionForm .yzm .text{width: 45px; }
+.sectionForm .yzm img{margin-top: 2px;}
+.sectionForm .size1of1{width: 100%;}
+.sectionForm .long{width: 370px;}
+.sectionForm .short{width: 60px;}
+
+.sectionForm-A1 li{margin-bottom: 10px;}
+.sectionForm-A1 label{width: 100px; color: #333;}
+.sectionForm-A1 textarea{color: #333;}
+.sectionForm-A1 select{width: 120px;padding: 4px 2px;}
+.sectionForm-A1 .text{width: 150px;}
+.sectionForm-A1 .yzm input{width: 60px; }
+.sectionForm-A1 p{line-height: 26px;}
+.sectionForm-A1 .date{line-height: 30px;}
+
+
+
+/*内容*/
+.sectionContext-A1{}
+
+
+/*消息*/
+.sectionMessage-A1{}
+
+.sectionMessage-A5{display: none; background: #fff8e8;position: absolute;left: 20px;top: 30px;text-align: left;z-index: 50;}
+.sectionMessage-A5 .p10{padding: 5px 10px; border: 1px solid #ffcc66;}
+.sectionMessage-A5 .p10 p{color: #666;font-family:"Microsoft Yahei";}
+.sectionMessage-A5 .text{min-width: 300px; line-height: 25px;font-size: 12px;font-weight: normal;font-family: "SimSun";}
+.sectionMessage-A5 p strong{font-weight: bold;color: #a57748;}
+.sectionMessage-A5 p .date{color: #999; line-height: normal;}
+
+/*表格*/
+.sectionTable-A1{}
+
+
+
+
+
+/*background*/
+.sectionBg-A1{}
+
+
+/*标签*/
+.sectionLabel{margin: 10px;position: relative;}
+.sectionLabel.current{background: #e6e6e6;}
+.sectionLabel a{font-size: 14px;}
+.sectionLabel .icon{width: 20px;height: 20px;text-align: center; border: 1px solid #ccc;background: #fff; position: absolute;top: -21px;right: -21px; font-size: 16px;cursor: pointer;text-decoration: none;}
+.sectionLabel .icon:hover{background: #eee;}
+
+.sectionLabel-A1{margin: 10px;position: relative;}
+.sectionLabel-A1.current{background: #e6e6e6;}
+.sectionLabel-A1 a{font-size: 14px;}
+.sectionLabel-A1 .icon{background: #fff; position: absolute;top: -15px;right: -15px;padding: 1px; font-size: 16px;text-decoration: none;}
+.sectionLabel-A1 .icon:hover{}
+
+
+/*显示视频模块*/
+.sectionBox-video{width: 550px;background: #fff;text-align: center; color: #666;font-size: 12px;font-family:"SimSun";}
+.sectionBox-video .video{}
+.sectionBox-video.mr20{}
+.sectionBox-video .desc{height: 25px;text-align:center;}
+.sectionBox-video p{}
+.sectionBox-video a{font-family:"SimSun";font-size: 12px;}
+
+/*button*/
+.sectionButton-A1{padding-left: 105px;}
+.sectionButton-A1 .bun{height: 40px;line-height: 40px; padding: 0 30px; background: #ff9900;border: none;border-radius: 3px;font-weight: bold; color: #fff;font-size: 16px;display: inline-block;font-family:"Microsoft Yahei";cursor: pointer;}
+
+
+
+/*抽象模块*/
+.sectionBox-A1{}
+
+
+.w-1080{width: 1080px;}
+
+
+
+
+.show-url{}

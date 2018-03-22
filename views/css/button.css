@@ -1,0 +1,40 @@
+@charset "utf-8";
+/**
+*note:
+*Example:
+*
+<span class="sectionAutoButton sectionAutoButton-A1 clear">
+    <span class="L">
+        <input class="L" type="button" value="" />
+    </span>
+</span>
+*/
+/*
+图片切法
+
+(|||
+    ||||||||||||||||||||||||||||||||||||||||)
+
+*/
+/*这块内容不要修改!!!*/
+/*======================================================================================================================*/
+.sectionAutoButton,
+.sectionAutoButton span{cursor:pointer;display: inline-block;font-size:14px;background:url(../images/buttons.png) no-repeat 0 0;outline:0;overflow:hidden;}
+.sectionAutoButton{padding: 0;}
+.sectionAutoButton span{padding: 0 5px;color: #fff;margin: 0;}
+.sectionAutoButton input,
+.sectionAutoButton a{border: none;background: none;color: #fff;padding-top: 5px;font-size: 12px;}
+.sectionAutoButton a{text-decoration: none;}
+/*========================================================================================================================*/
+
+.sectionAutoButton-A1,
+.sectionAutoButton-A1 span{height:37px;line-height: 37px; font-size:12px;}
+.sectionAutoButton-A1{background-position:0 0;position: relative;top: 1px;}
+.sectionAutoButton-A1 span{background-position:right -37px;padding: 0 10px;margin-left: 20px;}
+
+
+
+
+
+
+
